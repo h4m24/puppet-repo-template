@@ -1,0 +1,4 @@
+---
+  users:
+    sudo-users: hfaouri
+    service-users: nagios
