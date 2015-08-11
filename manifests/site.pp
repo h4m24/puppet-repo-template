@@ -5,27 +5,27 @@
 
 case $::hostname {
   	'FE-Web': {
-    include "::roles::frontend-web"
+    include "roles::frontend_web"
   	}
 
   	'BE-DB-APP': {
-    include "::roles::backend-db-application"
+    include "roles::backend_db_application"
   	}
 
   	'BE-DB-CMS': {
-    include "::roles::be-db-cms"
+    include "roles::be_db_cms"
   	}
 
   	'BE-ALGRTH': {
-    include "::roles::be-algorithm"
+    include "roles::be_db_cms"
     }
 
     'BE-CI': {
-    include "::roles::be-ci"
+    include "roles::be_db_cms"
     }
     
     'BE-monitoring': {
-    include "::roles::be-monitoring"
+    include "roles::be_db_cms"
     }
 
     default: { }
